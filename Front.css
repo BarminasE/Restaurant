@@ -1,0 +1,506 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header {
+	background-color: #1a1a1a;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 2rem;
+	color: white;
+	font-weight: bolder;
+}
+
+.nav-menu {
+	display: flex;
+	font-size: 1.3rem;
+	gap: 20px;
+}
+.nav-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.book-table {
+	background-color: #ff6600;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.hero {
+	background-image: url(/Images/df.png);
+	background-color: black;
+	opacity: 800px;
+	background-size: cover;
+	background-position: center;
+	height: 730px;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.hero-content {
+	max-width: 800px;
+
+	padding-bottom: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	font-size: 1rem;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: white;
+	margin-top: 70px;
+}
+
+.hero p {
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	padding-bottom: 50px;
+
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 5.5rem;
+	font-weight: bolder;
+
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+
+
+
+.btn-button {
+	background-color: #ff6600;
+	color: white;
+	padding: 10px 20px;
+	width: 200px;
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.container {
+	/* max-width: 1200px;
+     */
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+	background-color: #e2d58d;
+	padding: 20px;
+}
+
+.popular-foods {
+	margin-bottom: 20px;
+	margin-left: 80px;
+
+	padding-top: 60px;
+}
+.popular-foods h2 {
+	color: #333;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-weight: lighter;
+	font-size: 2.5rem;
+}
+.popular-foods span {
+	color: #ff5722;
+}
+.menu-options {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: 1.5rem;
+}
+
+.meal {
+	/* flex-grow: 1; */
+	padding: 20px;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.meal h2 {
+	font-size: 2rem;
+	color: #333;
+}
+
+.meal-items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.meal-item {
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.meal-item img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.meal-item h3 {
+	margin-top: 10px;
+	font-size: 1.5rem;
+	color: #555;
+}
+
+.meal-item .price {
+	font-size: 1.2rem;
+	color: #e86b43;
+	margin-top: 5px;
+}
+
+.dessert-section {
+	text-align: center;
+	padding: 50px;
+	background-color: #e2d58d;
+}
+
+h2 {
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #9e9e9e;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 10px 0;
+}
+
+.highlight {
+	color: #e74c3c;
+}
+
+.dessert-list {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.dessert-item {
+	border: 1px solid #585858;
+	padding: 20px;
+	margin: 0 15px;
+	border-radius: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.dessert-item img {
+	width: 100px;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.dessert-item p {
+	font-size: 18px;
+	margin: 0;
+	color: #333;
+}
+
+.con {
+	background-image: url(/Images/orange.jpg);
+	display: flex;
+	opacity: 800px;
+	background-position: center;
+	height: 730px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 1700px;
+	margin: 0px auto;
+	padding: 20px;
+	padding-bottom:60px;
+	position: relative;
+	z-index: 0;
+}
+
+.oval {
+	width: 100%;
+	height: 730px;
+	background-color: #e2d58d;
+	opacity: 60%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+h2 {
+	font-size: 1.7rem;
+	font-family: "Courier New", Courier, monospace;
+	color: #333;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #333	;
+	margin-top: 0;
+}
+
+.highlight {
+	color: var(--primary-color);
+}
+
+.galleries {
+	flex: 2;
+	margin-top: 50px;
+	padding: 20px;
+	z-index: 5;
+}
+
+.testimonial {
+	margin-top: 50px;
+}
+
+.testimonials {
+	margin-top: 100px;
+	margin-left: 140px;
+	z-index: 5;
+}
+
+.profile-pic {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.name {
+	font-weight: bold;
+	color: #333;
+	margin: 10px 0 0;
+	font-size: 30px;
+}
+
+.position {
+	color: #333;
+	margin: 0;
+	font-size: 17px;
+}
+
+p {
+	
+	border-left: 3px solid #ff5722;
+	padding-left: 20px;
+	color: #333;
+	margin-left: 0;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.gallery-grid img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.more-galleries {
+	background-color: #ff5722;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+
+.pole {
+	width: 100%;
+	
+	background-color: #e2d58d;
+	
+}
+.events-header {
+	text-align: center;
+	padding-top: 1px;
+	
+	
+}
+.events-header h1 {
+	font-size: 2.5rem;
+	color: #1a1a1a;
+	padding-top: 50px;
+	
+	
+}
+.events-header h1 span {
+	color: #ff6347;
+	font-size: 2.5rem;
+	
+}
+.events-header p {
+	font-size: 1.3rem;
+	color: #000000;
+}
+.event {
+	display: flex;
+	margin-right: 500px;
+	margin-left: 100px;
+	margin-top: 70px;
+}
+.event-info {
+	flex: 1;
+	padding-right: 20px;
+}
+/* .event-image {
+	padding-left: 200px;
+	background-color: green;
+} */
+
+.price {
+	color: #ff6347;
+	font-size: 2.9rem;
+
+}
+.event-title {
+	font-size: 2.4rem;
+	margin-bottom: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+.event-description {
+	font-size: 1.3rem;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.event-features {
+	list-style-type: none;
+	font-size: 1.3rem;
+}
+.event-features li {
+	margin-bottom: 5px;
+}
+.event-features li::before {
+	content: "✓";
+	color: #050404;
+	margin-right: 10px;
+}
+
+.book-table-section {
+	background-image: url(/Images/cherry\ muffin.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	color: #333;
+	text-align: center;
+	padding: 60px 20px;
+}
+
+.ova {
+	width: 100%;
+	height: 390px;
+	background-color: #e2d58d;
+	opacity: 50%;
+	position: absolute;
+	top: 0;
+	margin-top:3453px;
+	right: 0;
+}
+.book-table-content {
+	max-width: 600px;
+	margin: 0 auto;
+	z-index: 9;
+	padding: 40px;
+	border-radius: 8px;
+}
+h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: white;
+
+}
+p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: white;
+	margin-bottom: 30px;
+}
+.book-button {
+	background-color: #FF5722;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 25px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.book-button:hover {
+	background-color: #E64A19;
+}
+
+footer {
+	background-color: #5f5f5f;
+	color: white;
+	padding: 20px;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.footer-section {
+	flex: 1;
+	margin-right: 20px;
+}
+.footer-section:last-child {
+	margin-right: 0;
+}
+
+.footer-section 
+h3 {
+	font-size: 18px;
+	color: white;
+	margin-bottom: 10px;
+}
+ul {
+	font-size: 14px;
+	line-height: 1.9;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 19px;
+	margin-top: 20px;
+}
+.copyright a {
+	color: #E64A19;
+	text-decoration: none;
+}
+
